@@ -1,4 +1,4 @@
---->This is a simple Streamlit application that uses the OpenAI API to generate a love message based on your input. It utilizes the text-davinci-002 engine to create language learning related message for your input text.
+--->This is a simple Streamlit application that uses the OpenAI API to generate a message based on your input. It utilizes the text-davinci-002 engine to create language learning related message for your input text.
 
 
 
@@ -6,7 +6,7 @@
 
 
 
---->We can change our prompt according to our requirements by doing one changes in the code.
+--->We can change our prompt according to our requirements by doing one change in the code.
 Features:
 
 * Generate personalized love messages based on your input.
