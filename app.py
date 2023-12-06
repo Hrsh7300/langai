@@ -7,7 +7,7 @@ import streamlit as st
 st.title('Write a Message to Your Amour')
 
 # Add a descriptive text
-st.write('Some people say that French is the language of love <3')
+st.write('Some people say that French is a good language')
 
 # Define a function to generate text using OpenAI API
 def GPT_Completion(texts):
@@ -22,7 +22,7 @@ def GPT_Completion(texts):
     """
 
     # Access OpenAI API using your personal API key
-    openai.api_key = "insert_your_openapi_key"
+    openai.api_key = "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"
 
     # Define parameters for generating text
     response = openai.Completion.create(
