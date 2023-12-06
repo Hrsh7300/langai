@@ -22,7 +22,7 @@ def GPT_Completion(texts):
     """
 
     # Access OpenAI API using your personal API key
-    openai.api_key = "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"
+    openai.api_key = "insert_your_api_key"
 
     # Define parameters for generating text
     response = openai.Completion.create(
